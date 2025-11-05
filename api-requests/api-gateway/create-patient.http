@@ -1,0 +1,13 @@
+### GET request to fetch patients from the patient service
+POST http://localhost:4000/patients
+Content-Type: application/json
+
+{
+  "name": "John Doe",
+  "registeredDate": "2024-06-15",
+  "email": "johndoe13@gmail.com",
+  "address": "123 Main St, Anytown, USA",
+  "dateOfBirth": "1990-05-20"
+}
+
+###

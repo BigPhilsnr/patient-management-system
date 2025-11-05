@@ -1,0 +1,12 @@
+### GET request to fetch patients from the patient service
+PUT http://localhost:4000/patients/223e4567-e89b-12d3-a456-426614174014
+Content-Type: application/json
+
+{
+
+  "registeredDate": "2024-06-15",
+  "address": "123 Main St, Anytown, USA",
+  "dateOfBirth": "1990-05-20"
+}
+
+###

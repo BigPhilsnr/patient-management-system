@@ -1,3 +1,5 @@
 ### GET request to fetch patients from the patient service
 GET http://localhost:4004/api/patients
+Content-Type: application/json
+Authorization: Bearer {{token}}
 ###

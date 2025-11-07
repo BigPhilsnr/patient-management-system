@@ -1,0 +1,6 @@
+### Login Request to retrieve a token
+GET http://localhost:4004/auth/validate
+Content-Type: application/json
+Authorization: Bearer {{token}}
+
+
